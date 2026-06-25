@@ -1,1 +1,9 @@
-Making a website to learn how to make a website (I am learning how to make a website). This is a website. what's up.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+<body>
+  <h1>Hello World!</h1>
+</body>
+</html>
