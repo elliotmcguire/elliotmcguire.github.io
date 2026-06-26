@@ -1,3 +1,13 @@
 
 <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
 Click me to display Date and Time.</button>
+
+function getNumber() {
+    let number = Number(prompt("Enter a number:"));
+
+    if (isNaN(number)) {
+        document.getElementById("output").innerHTML =
+            "That's not a valid number.";
+    } else {
+        document.getElementById("output").innerHTML =
+            "You entered: " + number;
