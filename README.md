@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="styling.css">
-<script src="script.js"></script>
+<script src="cursorScript.js"></script>
 </head>
   <h1>ArchiMoney</h1>
 <body>
@@ -10,7 +10,7 @@
 <button onclick="getNumber()">How much do you want to deposit?</button>
 <p id="output"></p>
 
-<script src="script.js"></script>
+
 <h2>Withdraw Money</h1>
 
 <button onclick="getNumber()">How much do you want to withdraw?</button>
