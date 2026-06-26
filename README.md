@@ -7,12 +7,14 @@
 <body>
 
 <h2>Deposit Money</h1>
+<button onclick="getNumber()">How much do you want to deposit?</button>
+<p id="output"></p>
 
+<script src="script.js"></script>
 <h2>Withdraw Money</h1>
 
-<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.
-</button>
+<button onclick="getNumber()">How much do you want to withdraw?</button>
+<p id="output"></p>
 
 <p id="demo"></p>
 
